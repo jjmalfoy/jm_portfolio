@@ -11,21 +11,35 @@
         <title></title>
     </head>
     <body>
-        <div class="box">
+        
+        <div class="container-fluid header-container">
+             
 
-            
+            <div class="row flex-nowrap">
+                       <!-- Nav -->
+         
+                <!-- Left header column -->
+                <div class="col-md-8 left-header-col">
+                    <div class="card border-0 bg-transparent">
+                        <img class="card-img-top" src="assets/images/Jessica_Malfait.svg"/>
 
-            <!-- Header -->
-            <div class="info-banner header-row header">  
-                <!-- Nav -->
-            
+                        <div class="header-body card-body bg-light mb-5 ml-5 w-50">
+                            <h5 class="card-title">
+                                Hi!
+                            </h5>
+                            <p class="card-text">
+                                I am a UX Designer. My goal is to help make technology more accessible through design and empathy. I aim to truly understand the user’s point of view through interviews and research. Design thinking centers around empathy and the user and my diverse background in healthcare as a Registered Nurse has helped hone my empathic abilities and really understand people. I have a keen attention to detail and am able to quickly think critically in order to solve problems. I have experince in UX research, UI design and interaction design and excels in soft skills such as empathy, leadership and communication.
+                            </p>
+                            <a href="#" class="btn btn-dark">Resume</a>
 
-                <!-- Grid wrapper -->
-                <div class="wrapper" id="header-wrapper">
-                    
-                    
-                    <nav class="navbar" id="navbar">
-                
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col">
+                      <!-- Nav -->
+                    <nav class="navbar">
                         <ul class="nav justify-content-end">
                         <li class="nav-item">
                             <a class="nav-link text-dark fs-3" href="index.html">ABOUT ME</a>
@@ -34,81 +48,41 @@
                             <a class="nav-link text-dark fs-3" href="index.html">HOME</a>
                         </li>
                         </ul>
-                        
                     </nav>
-                    
-                    <!-- Start of HOME section -->
 
-                    <!-- Author bubble -->
-                    <div id="info-bubble1" class="info-bubble">
-                        
-                            <div id="author-bubble" class="svg-container">
-                                <p id="author">Jessica Malfait</p>
-                            </div>
-                    
-                    </div>
-                    
-                    <!-- Skills bubble -->
-                    <div id="info-bubble2" class="info-bubble">
-                        
-                            <div id="skills-bubble" class="svg-container">
-                                <div class="header-title-1">
-                                    My Skills:
-                                </div>
-                                <div class="content fs-5">
-                                    <p>Sketching, Wireframing, Rapid Prototyping, UX Research, UI Design, Interaction Design, Responsive Web Design, HTML, CSS</p>
-                                </div>
-                                <div class="content fs-5">
-                                    <p>Figma, AdobeXD, Photoshop, VSCode, GitHub, Vue</p>
-                                </div>
-                            </div>
-                        
-                    </div>
-                    
-                    <!-- Links bubble -->
-                    <div id="info-bubble3" class="info-bubble">
-                        
-                        <div id="contact-me-bubble" class="svg-container">
-                            <div class="header-title-2">Contact Me:</div>
-                            <div class="content">
-                                <ul class="no-bullet-list">
-                                    <li>hello@jessmalfait.com</li>
-                                    <li>LinkedIn</li>
-                                    <li>Dribbble</li>
-                                </ul>
-                            </div>
-                        
-                        </div>
-                    </div>
+                    <!-- Headshot -->
+                    <figure class="figure">
+                        <img src="assets/images/portfolio_headshot.png" class="figure-img img-fluid" alt="headshot"/>
+                    </figure>
+                    <!-- Journey -->
+                    <figure class="figure">
+                        <img src="assets/images/journey_image.png" class="figure-img img-fluid" alt="journey"/>
+                    </figure>
                 </div>
-                <!-- end HOME section -->
-
-                <!-- start ABOUT ME section -->
-                <div class="box" id="about-me-section-box">   
-                    <div id="about-intro">Hi!</div>  
-                    <div class="two-column-grid-1"> 
-                        <div class="project-content">
-                            I am a UX Designer. My goal is to help make technology more accessible
-                            through design and empathy. I aim to truly understand the user’s point of 
-                            view through interviews and research. Design thinking centers around empathy 
-                            and the user and my diverse background in healthcare as a registered nurse has
-                            helped hone my empathic abilities and really understand people. I have a keen attention 
-                            to detail and am able to quickly think critically in order to solve problems. I have 
-                            experince in ux research, ui design and interaction design and excels in soft 
-                            skills such as empathy, leadership and communication. 
-                        </div>
-                        <div id="about-me-image">
-                            <img src="assets/images/placeholder.png" alt="placeholder image for portrait." width="632" height="506"/>
-        
-                        </div>
-                    </div>
-                </div>
-                <!-- end ABOUT ME section -->
-
-                </div>
-                    <!-- Close banner -->
             </div>
-        </div>    
+        </div>
+        <!-- start ABOUT ME section -->
+        <div class="box" id="about-me-section-box">   
+            <div id="about-intro">Hi!</div>  
+            <div class="two-column-grid-1"> 
+                <div class="project-content">
+                    I am a UX Designer. My goal is to help make technology more accessible
+                    through design and empathy. I aim to truly understand the user’s point of 
+                    view through interviews and research. Design thinking centers around empathy 
+                    and the user and my diverse background in healthcare as a registered nurse has
+                    helped hone my empathic abilities and really understand people. I have a keen attention 
+                    to detail and am able to quickly think critically in order to solve problems. I have 
+                    experince in ux research, ui design and interaction design and excels in soft 
+                    skills such as empathy, leadership and communication. 
+                </div>
+                <div id="about-me-image">
+                    <img src="assets/images/placeholder.png" alt="placeholder image for portrait." width="632" height="506"/>
+
+                </div>
+            </div>
+        </div>
+        <!-- end ABOUT ME section -->
+
             <!-- Projects Section -->
         <div class="box" id="projects-section-box">
             <!-- Title -->
@@ -116,10 +90,11 @@
                 My Projects:
             </div>
             
-            <div class="two-column-grid-1 row">
+            <div class="container">
 
                 <!-- start project 1 -->
-                <div class="two-column-left-first-row">
+                <div class="row mb-3">
+                   <div class="col"> 
                     <div class="project-title-2">
                         <a href="nugget.html">Nugget</a>
                     </div>
@@ -130,13 +105,16 @@
                         <div class="project-content">
                             <p>Role: UX Researcher and designer</p>
                         </div>
-                </div>
-                <div class="two-column-right-first-row">
-                    <img src="assets/images/NuggetApp 1.png" alt="Nugget App Welcome page" width="632" height="506"/>
+                    </div>   
+                
+                <div class="col">
+                    <img src="assets/images/NuggetApp 1.png" alt="Nugget App Welcome page" class="img-fluid"/>
                 </div>  
+            </div>
                 
                 <!-- start project 2 -->
-                <div class="two-column-left-second-row">
+                <div class="row mt-5 mb-5">
+                   <div class="col"> 
                     <div class="project-title-2">
                         <p>Globalgrassroots.org</p>
                     </div>
@@ -147,32 +125,38 @@
                         <div class="project-content">
                             <p>Role: UI Designer</p>
                         </div>
-                </div>
-                <div class="two-column-grid-right-second-row">
-                    <img src="assets/images/Globalgrassroots 1.png" alt="Globalgrassroots redesign homepage" width="632" height="506"/>
+                    </div>   
+                
+                    <div class="col">
+                        <img src="assets/images/Globalgrassroots 1.png" alt="Globalgrassroots redesign homepage" class="img-fluid"/>
+                    </div> 
                 </div>    
             </div>
         </div>        
     
     <!-- Begin footer -->
     <footer>
-           <div class="footer-block-grid">
-               <div class="inline-block">
-                    <ul class="no-bullet-list">
-                        <li>LinkedIn</li>
-                        <li>Instagram</li>
-                        <li>Dribbble</li>
-                    </ul>
-                </div>
-                <div class="inline-block">hello@jessmalfait.com</div>
-                <div class="inline-block">
-                    <ul class="no-bullet-list">
-                        <li>Copyright 2021</li>
-                        <li>All rights reserved.</li>
-                    </ul>
-                </div>
-           </div>
-       </footer>
+        <div class="container">
+          <div class="row mt-2 justify-content-center">
+            <div class="col-sm-4">
+              <ul>
+                <li>Linkedin</li>
+                <li>Instagram</li>
+                <li >Dribble</li>
+              </ul>
+            </div>
+            <div class="col-sm-4 text-center">
+              <a href="mailto:hello@jessmalfait.com" target="_blank" class="btn btn-link">hello@jessmalfait.com</a>
+            </div>
+            <div class="col-sm-4 text-end">
+              <ul>
+                <li>Copyright 2021</li>
+                <li>All rights reserved.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
     </body>
     <!-- Load local js files here -->
     <script src="assets/js/index.js"></script>

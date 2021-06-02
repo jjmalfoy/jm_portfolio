@@ -242,3 +242,19 @@ body {
 #navbar {
     grid-column: col-start 10 / span 3;
 }
+
+
+/* Header */
+.header-container {
+    background-image: url("../images/blue_bg_gradient.png");
+    background-size: 100% auto;
+}
+
+.left-header-col {
+    background-image: url("../images/brick_background.png");
+}
+
+.header-body {
+    background-color: rgba(245, 245, 245, 1);
+    opacity: .7;
+}
